@@ -246,6 +246,7 @@ const PasswordGeneratorApp = () => {
                       <div id="range" className='w-full'>
                       <input id="default-range" 
                       type="range" value={length}
+                      min={8} max={32}
                       className="w-full h-1 bg-green-200 rounded-lg appearance-none cursor-pointer dark:bg-green-200"
                       onChange={(e) => {setLength(e.target.value)}} />
                       </div>
