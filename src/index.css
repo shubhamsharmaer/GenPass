@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+    font-family: 'SuisseIntl-Light', sans-serif;
+  } */
+
+#root {
+    max-width: 1980px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    /* background-color: #b7f4b1; */
+    /* bg: #000000 */
+}
+  
+  
